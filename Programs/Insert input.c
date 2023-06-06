@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char fullname[];
+char fullname[100];
 
 
 int main()
