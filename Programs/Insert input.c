@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-char fullname;
+char fullname[];
 
 
 int main()
   {
-  printf("Hello what is your name?);
+  printf("Hello what is your name?");
   scanf("%s" ,fullname);
          
   printf("Hello, %s ", fullname);
